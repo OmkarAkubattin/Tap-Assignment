@@ -37,3 +37,6 @@ A web application that automatically detects emergencies and alerts contacts whe
 1. Clone the repository:
 ```bash
 git clone https://github.com/yourusername/smart-emergency-responder.git
+cd smart-emergency-responder
+npm install
+npm start
