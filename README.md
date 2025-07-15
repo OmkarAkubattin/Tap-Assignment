@@ -1,7 +1,5 @@
 # Smart Emergency Responder App
 
-![App Screenshot](./screenshot.png) <!-- Add a screenshot if available -->
-
 A web application that automatically detects emergencies and alerts contacts when the user is in distress, offline, or in poor network conditions.
 
 ## Features
