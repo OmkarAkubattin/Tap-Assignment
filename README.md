@@ -1,42 +1,12 @@
-# Smart Emergency Responder App
+# React + Vite
 
-A web application that automatically detects emergencies and alerts contacts when the user is in distress, offline, or in poor network conditions.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-## Features
+Currently, two official plugins are available:
 
-- 🚨 **Automatic Emergency Detection**
-  - Triggers alerts when user is inactive for extended periods
-  - Detects when device goes offline
-  - Identifies poor network conditions (2G/slow networks)
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-- 📍 **Real-time Location Tracking**
-  - Continuous GPS monitoring
-  - Location updates during emergencies
+## Expanding the ESLint configuration
 
-- 📶 **Network Status Monitoring**
-  - Detects offline status
-  - Identifies slow network connections
-  - Monitors connection quality (downlink speed, latency)
-
-- ⚙️ **Background Health Checks**
-  - Periodic system monitoring
-  - Web Worker-based background tasks
-
-## Technologies Used
-
-- **Frontend**: React.js
-- **APIs Used**:
-  - Geolocation API
-  - Network Information API
-  - Page Visibility API
-  - Web Workers API
-- **Styling**: CSS3
-
-## Installation
-
-1. Clone the repository:
-```bash
-git clone https://github.com/yourusername/smart-emergency-responder.git
-cd smart-emergency-responder
-npm install
-npm start
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
